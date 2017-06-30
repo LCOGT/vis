@@ -25820,7 +25820,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
       // Note: we do NOT attach this item as attribute to the DOM,
       //       such that background items cannot be selected
-      //dom.box['timeline-item'] = this;
+      dom.box['timeline-item'] = this;
 
       this.dirty = true;
     }
